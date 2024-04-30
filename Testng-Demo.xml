@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo">
+	<parameter name="Browser" value="Chrome" />
+
+	<test name="LoginTest_Sanity">
+		<classes>
+			<class name="com.Sanity.tests.LoginTest" />
+		</classes>
+		</test>
+		
+		<test name="ItemEdit_Sanity">
+		<classes>
+			<class name="com.Sanity.tests.EditItemTest" />
+		</classes>
+	</test> <!-- Test -->
+		</suite> <!-- Suite -->
+		
