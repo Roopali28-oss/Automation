@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="allSuites">
-  <suite-files>
-    <suite-file path="\Testng-Demo.xml" />
-    
-  </suite-files>
-</suite>
+<suite name="Demo">
+	<parameter name="Browser" value="Chrome" />
+
+	<test name="LoginTest_Sanity">
+		<classes>
+			<class name="com.Sanity.tests.LoginTest" />
+		</classes>
+		</test>
+		</suite> <!-- Suite -->
+		
